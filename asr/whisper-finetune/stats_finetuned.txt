@@ -1,0 +1,85 @@
+Overall stats:                                                                                                                          
+Level     |Category                                                                                                                     
+----------|------------                                                                                                                 
+mild      |conversation:        WER= 8.73% N= 92852 C= 89180 D=1273 S=2399 I=4431                                                       
+moderate  |conversation:        WER=16.89% N= 15131 C= 14429 D= 273 S= 429 I=1853                                                       
+severe    |conversation:        WER=48.22% N= 12740 C= 11729 D= 301 S= 710 I=5132                                                       
+mild      |command     :        WER= 8.18% N= 43730 C= 40304 D= 182 S=3244 I= 152                                                       
+moderate  |command     :        WER=10.89% N=  6751 C=  6070 D=  31 S= 650 I=  54                                                       
+severe    |command     :        WER=11.51% N= 12281 C= 10926 D=  82 S=1273 I=  59                                                       
+mild      |all         :        WER= 8.55% N=136582 C=129484 D=1455 S=5643 I=4583                                                       
+moderate  |all         :        WER=15.04% N= 21882 C= 20499 D= 304 S=1079 I=1907                                                       
+severe    |all         :        WER=30.20% N= 25021 C= 22655 D= 383 S=1983 I=5191                                                       
+all       |conversation:        WER=13.92% N=120723 C=115338 D=1847 S=3538 I=11416                                                      
+all       |command     :        WER= 9.12% N= 62762 C= 57300 D= 295 S=5167 I= 265                                                       
+all       |all         :        WER=12.28% N=183485 C=172638 D=2142 S=8705 I=11681     
+
+Per-spk stats:                                                                                                                          
+mild                                                                                                                                    
+----------|------------                                                                                                                 
+0066      |conversation:        WER= 5.81% N=5456 C=5307 D= 30 S=119 I=168                                                              
+0066      |command     :        WER=11.22% N=3057 C=2765 D= 19 S=273 I= 51                                                              
+0066      |all         :        WER= 7.75% N=8513 C=8072 D= 49 S=392 I=219                                                              
+0067      |conversation:        WER= 6.51% N=14936 C=14361 D=218 S=357 I=398                                                            
+0067      |command     :        WER= 7.27% N=4275 C=3974 D= 10 S=291 I= 10                                                              
+0067      |all         :        WER= 6.68% N=19211 C=18335 D=228 S=648 I=408                                                            
+0053      |conversation:        WER= 3.98% N=5758 C=5642 D= 34 S= 82 I=113                                                              
+0053      |command     :        WER= 9.00% N=1266 C=1153 D=  7 S=106 I=  1
+0053      |all         :        WER= 4.88% N=7024 C=6795 D= 41 S=188 I=114
+0051      |conversation:        WER= 3.59% N=4260 C=4162 D= 30 S= 68 I= 55
+0051      |command     :        WER= 6.67% N=2427 C=2270 D=  9 S=148 I=  5
+0051      |all         :        WER= 4.71% N=6687 C=6432 D= 39 S=216 I= 60
+0061      |conversation:        WER=35.13% N=2929 C=2838 D= 28 S= 63 I=938
+0061      |command     :        WER= 7.09% N=2116 C=1972 D=  4 S=140 I=  6
+0061      |all         :        WER=23.37% N=5045 C=4810 D= 32 S=203 I=944
+0068      |conversation:        WER= 7.38% N=3630 C=3469 D= 71 S= 90 I=107
+0068      |command     :        WER= 8.36% N=1831 C=1686 D= 19 S=126 I=  8
+0068      |all         :        WER= 7.71% N=5461 C=5155 D= 90 S=216 I=115
+0063      |conversation:        WER=18.66% N=4416 C=4057 D=117 S=242 I=465
+0063      |command     :        WER= 8.39% N=2932 C=2691 D= 15 S=226 I=  5
+0063      |all         :        WER=14.56% N=7348 C=6748 D=132 S=468 I=470
+0065      |conversation:        WER=15.55% N=9060 C=8708 D= 87 S=265 I=1057
+0065      |command     :        WER= 8.21% N=3764 C=3475 D= 23 S=266 I= 20
+0065      |all         :        WER=13.40% N=12824 C=12183 D=110 S=531 I=1077
+0057      |conversation:        WER=13.29% N=6252 C=5768 D=134 S=350 I=347
+0057      |command     :        WER= 8.94% N=4096 C=3741 D= 19 S=336 I= 11
+0057      |all         :        WER=11.57% N=10348 C=9509 D=153 S=686 I=358
+0069      |conversation:        WER= 3.33% N=6875 C=6692 D= 89 S= 94 I= 46
+0069      |command     :        WER= 7.18% N=2966 C=2761 D=  9 S=196 I=  8
+0069      |all         :        WER= 4.49% N=9841 C=9453 D= 98 S=290 I= 54
+0070      |conversation:        WER= 6.87% N=7574 C=7281 D=125 S=168 I=227
+0070      |command     :        WER= 8.67% N=3195 C=2922 D= 13 S=260 I=  4
+0070      |all         :        WER= 7.40% N=10769 C=10203 D=138 S=428 I=231
+0064      |conversation:        WER= 8.44% N=7109 C=6803 D=119 S=187 I=294
+0064      |command     :        WER= 6.89% N=3787 C=3528 D=  9 S=250 I=  2
+0064      |all         :        WER= 7.90% N=10896 C=10331 D=128 S=437 I=296
+0056      |conversation:        WER= 4.38% N=9260 C=8948 D=122 S=190 I= 94
+0056      |command     :        WER=10.02% N=3553 C=3207 D= 13 S=333 I= 10
+0056      |all         :        WER= 5.95% N=12813 C=12155 D=135 S=523 I=104
+0055      |conversation:        WER= 5.90% N=5337 C=5144 D= 69 S=124 I=122
+0055      |command     :        WER= 7.10% N=4465 C=4159 D= 13 S=293 I= 11
+0055      |all         :        WER= 6.45% N=9802 C=9303 D= 82 S=417 I=133
+
+moderate
+----------|------------
+0054      |conversation:        WER= 8.26% N=5156 C=5003 D= 59 S= 94 I=273
+0054      |command     :        WER= 8.46% N=1902 C=1755 D=  5 S=142 I= 14
+0054      |all         :        WER= 8.32% N=7058 C=6758 D= 64 S=236 I=287
+0059      |conversation:        WER=26.51% N=7348 C=6887 D=179 S=282 I=1487
+0059      |command     :        WER= 9.61% N=2561 C=2348 D= 18 S=195 I= 33
+0059      |all         :        WER=22.14% N=9909 C=9235 D=197 S=477 I=1520
+0058      |conversation:        WER= 6.89% N=2627 C=2539 D= 35 S= 53 I= 93
+0058      |command     :        WER=14.34% N=2288 C=1967 D=  8 S=313 I=  7
+0058      |all         :        WER=10.36% N=4915 C=4506 D= 43 S=366 I=100
+
+severe
+----------|------------
+0052      |conversation:        WER=22.26% N=5401 C=5169 D=108 S=124 I=970
+0052      |command     :        WER= 9.11% N=2853 C=2617 D= 39 S=197 I= 24
+0052      |all         :        WER=17.71% N=8254 C=7786 D=147 S=321 I=994
+0062      |conversation:        WER=54.67% N=2797 C=2587 D= 36 S=174 I=1319
+0062      |command     :        WER=14.19% N=6075 C=5240 D= 28 S=807 I= 27
+0062      |all         :        WER=26.95% N=8872 C=7827 D= 64 S=981 I=1346
+0060      |conversation:        WER=75.12% N=4542 C=3973 D=157 S=412 I=2843
+0060      |command     :        WER= 8.71% N=3353 C=3069 D= 15 S=269 I=  8
+0060      |all         :        WER=46.92% N=7895 C=7042 D=172 S=681 I=2851
