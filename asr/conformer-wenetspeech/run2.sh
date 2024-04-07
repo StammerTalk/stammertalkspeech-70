@@ -17,10 +17,10 @@ project_dir=
 raw_data_dir=
 
 # utts data dir
-utts_data_dir=$project_dir/data
+utts_data_dir=$project_dir/data2
 
 # train/dev/test
-par=level_split2.json
+par=$project_dir/data/level_split2.json
 
 exp=wenetspeech_stutter2
 
@@ -44,14 +44,14 @@ if [ ${stage} -le 1 ] && [ ${stop_stage} -ge 1 ]; then
     for split in train dev; do
         rm -r $data_dir/$split
         mkdir -p $data_dir/$split
-        ids=$(python3 src/get_ids.py $utts_data_dir/$par $split)
+        ids=$(python3 src/get_ids.py $par $split)
         for i in ${ids}; do find $utts_data_dir/${i} -name '*.wav' -exec sh -c 'for f do echo "$(echo ${f%.*}) $(echo $f)"; done' sh {} + >> $data_dir/$split/wav.scp; done
         for i in ${ids}; do find $utts_data_dir/${i} -name '*.txt' -exec sh -c 'for f do echo "$(echo ${f%.*}) $(cat $f)"; done' sh {} + >> $data_dir/$split/text; done
     done
 
     rm -r $data_dir/test
     mkdir -p $data_dir/test
-    ids=$(python3 src/get_ids.py $utts_data_dir/$par test)
+    ids=$(python3 src/get_ids.py $par test)
     # only take conversation_A*.wav and command*.wav as test sets
     for i in ${ids}; do find $utts_data_dir/${i} -name 'conversation_A*.wav' -exec sh -c 'for f do echo "$(echo ${f%.*}) $(echo $f)"; done' sh {} + >> $data_dir/test/wav.scp; done
     for i in ${ids}; do find $utts_data_dir/${i} -name 'command*.wav' -exec sh -c 'for f do echo "$(echo ${f%.*}) $(echo $f)"; done' sh {} + >> $data_dir/test/wav.scp; done

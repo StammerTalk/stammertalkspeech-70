@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# semantic level_split2.json
+# verbatim level_split2.json
 
 stage=0
 stop_stage=5
@@ -8,13 +8,13 @@ stop_stage=5
 . src/tools/parse_options.sh || exit 1;
 
 # wenet git repo clone
-wenet=/fs/scratch/users/rong_gong/2021/wenet
+wenet=
 
 # Entire repo local dir, which should contain ./asr/wenet-wenetspeech and ./data
-project_dir=/fs/scratch/users/rong_gong/2023/dax/is2023
+project_dir=
 
 # contain audio_deid_full.zip and annotation_deid_full.zip
-raw_data_dir=/fs/data/users/rong_gong/is2024
+raw_data_dir=
 
 # utts data dir
 utts_data_dir=$project_dir/data_verbatim
